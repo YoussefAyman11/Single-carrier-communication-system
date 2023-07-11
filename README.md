@@ -9,10 +9,12 @@ The modulation schemes under consideration are the BPSK, QPSK, 8PSK, BFSK and
 16QAM systems.
 
 The channel 
+
 The channel is an AWGN channel. In this model, the channel just adds noise to the 
 transmitted signal. In MATLAB, the command “randn” should be used to generate the AWGN.
 
 The Demapper 
+
 The simple demapper in the model under consideration will take the output of the channel 
 and decide on the symbol transmitted. The output bit stream of the receiver is compared to 
 the input bit stream and the BER is calculated. 
